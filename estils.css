@@ -57,12 +57,12 @@ body {
 }
 
 .contendedor-header header nav ul li a:hover {
-    color: #1c5fb6;
+    color: #1c7eb6;
     font-size: 35px;
 }
 
 .nav-responsive {
-    background-color: #1c21b6;
+    background-color: #1c7eb6;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
@@ -179,22 +179,45 @@ section {
 #experiencia-lab h1 {
     color: white;
     font-size: 75px;
+    text-align: center; /* Para centrar el texto */
 }
 
-.quatre button {
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    transition: transform 0.4s ease-in-out;
+.experiencia-btn-container {
+    display: flex;
+    flex-direction: column; /* Cambiando la dirección al eje vertical */
+    align-items: center;
+    text-align: center; /* Para centrar los botones */
+    margin-top: 32%; /* Ajusta el margen superior según tus necesidades */
+}
+
+.experiencia-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+    border: 3px solid;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
     font-size: 18px;
-    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: -510%;
+    margin-bottom: 30px;
+    margin-top: -150px;
+    border-radius: 8px;
 }
 
-.quatre button:hover {
-    transform: scale(1.2);
+.experiencia-btn:hover {
+    background-color: #1c7eb6;
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+    transform: scale(1.1);
+}
+
+
+#experiencia-lab p {
+    color: white;
 }
 
