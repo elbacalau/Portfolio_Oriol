@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Moonrocks&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Moonrocks&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Nunito&family=Rubik+Doodle+Shadow&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -161,6 +163,7 @@ section {
     margin-left: 25px;
     padding-top: auto;
     font-family: 'Press Start 2P', cursive;
+    
 }
 
 
@@ -174,8 +177,9 @@ section {
 
 .contenedor-sobremi p {
     color: #1A0427;
-    font-size: 26px;
-
+    font-size: 29px;
+    font-weight: bold;
+    
 }
 
 
@@ -218,9 +222,97 @@ section {
     margin-left: 15%;
 }
 
+#Skills {
+    text-align: left;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
 .tres h1 {
-    font-size: 75px;
-    
+    font-size: 100px;
+    margin-left: -70%;
+    margin-top: -20%;
+    font-family: 'Exo 2', 'Nunito', 'Rubik Doodle Shadow', sans-serif;
+    color:  #ab4ec2;
+    text-shadow: 4px 4px 4px#4d0360;
+}
+
+#menu-hab {
+    font-size: 30px;
+    margin-left: -70%;
+    margin-top: 15%;
+    font-weight: bolder;
+
+}
+
+/* Iconos Skills */
+
+.iconos-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinea los elementos en el centro horizontalmente */
+    margin-left: 104%;
+    margin-top: 6%;
+}
+
+.icon-csharp {
+    height: 7.6em;
+    margin: 10px;
+    transition: color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.icon-csharp:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-python {
+    font-size: 8em;
+    color: black;
+    transition: color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    margin: 10px; /* Espaciado entre los iconos */
+}
+
+.fa-python:hover {
+    color: rgb(0, 106, 255);
+    transform: scale(1.1);
+}
+
+.fa-css3-alt {
+    font-size: 8em;
+    color: black;
+    transition: color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    margin: 10px;
+}
+
+.fa-css3-alt:hover {
+    color: #510E7A;
+    transform: scale(1.1);
+}
+
+.fa-html5 {
+    font-size: 8em;
+    color: black;
+    transition: color 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55), transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    margin: 10px;
+}
+
+.fa-html5:hover {
+    color: rgb(201, 136, 14);
+    transform: scale(1.1);
+}
+
+
+
+
+/* Final iconos Skills */
+
+.skills-h2 {
+    font-size: 50px;
+    margin-left: 80%;
+    margin-top: -75%;
+    font-family: 'Exo 2', 'Nunito', 'Rubik Doodle Shadow', sans-serif;
 }
 
 #experiencia-lab {
@@ -343,3 +435,6 @@ button:hover {
         'GRAD' 0,
         'opsz' 24;
 }
+
+
+
